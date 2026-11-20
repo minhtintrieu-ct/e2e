@@ -1,5 +1,11 @@
 # @e2e-dev/core
 
+## 0.24.1
+
+### Patch Changes
+
+- [#1934](https://github.com/e2e-inc/e2e/pull/1934) [`160cbfe`](https://github.com/e2e-inc/e2e/commit/160cbfe7a06df443d531060fc0e7467cb9db8368) Thanks [@yehomak](https://github.com/yehomak)! - The replay cache now records a value typed into an `autocomplete="one-time-code"` field as a run-time gap, so a code typed one digit per box no longer replays the previous run's code.
+
 ## 0.24.0
 
 ### Minor Changes
